@@ -38,3 +38,23 @@ body {
 .hands img {
     height: 300px;
 }
+.hands h1{
+    font-family: "Roboto", sans-serif;
+    font-weight:400;
+    font-size: 45px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.hands p{
+    margin: 10px;
+    text-align: center;
+    height: 60px;
+    width: 470px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
