@@ -1,0 +1,40 @@
+body {
+    background-color: white color;
+    color: #1b1b1b;
+    font-family: "Roboto", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    overflow: hidden;
+  }
+
+
+.contenedor {
+    display: flex;
+    flex:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hands {
+    background-color: #e8ebe4;
+    color: #1b1b1b;
+    display: flex;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hands img {
+    height: 300px;
+}
