@@ -2,10 +2,9 @@ body {
     background-color: white color;
     color: #1b1b1b;
     font-family: "Roboto", sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-style: normal;
-    overflow: hidden;
-  }
+}
 
 
 .contenedor {
@@ -14,74 +13,75 @@ body {
 }
 
 
-.user{
+.user {
     display: flex;
     flex-direction: column;
 
 }
-.contacto{
+
+.contacto {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px;
+    border-color: #E8EBE4;
+    border-style: solid;
 }
 
-.contacto_user{
+.contacto_user {
     display: flex;
     align-items: center;
 }
 
-.contacto_img{
+.contacto_img {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-  
+    margin-left: 10px;
 }
 
-.contacto_nombre{
-margin-left: 1rem;
-}
-
-.chat_text{
-    margin-left: 1rem;
+.contacto_nombre {
+    margin-left: 10px;
 
 }
 
-.nombre{
-font-size: 1rem;
+.chat_text {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.boton_activa{
-    font-size: 0.6rem;
+.nombre {
+    font-size: 15px;
 }
 
-.estado{
-    color: limegreen;
+.boton_activa {
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .hands {
-    background-color: #e8ebe4;
+    background-color: #E8EBE4;
     color: #1b1b1b;
     display: flex;
     flex-direction: column;
-    flex: 80%;
+    flex: auto;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .hands img {
-   height: 250px;
+    height: 250px;
 }
-.hands h1{
+
+.hands h1 {
     font-family: "Roboto", sans-serif;
-    font-weight:400;
+    font-weight: 400;
     font-size: 45px;
     margin: 10px;
     text-align: center;
-
 }
 
-.hands p{
+.hands p {
     margin: 10px;
     text-align: center;
     height: 60px;
@@ -90,41 +90,41 @@ font-size: 1rem;
     font-size: 16px;
     font-weight: 400;
 }
-.icons{
+
+.icons {
     display: flex;
-    justify-content: space-around;
-    color: #828485;
-    margin-left: 10px;
-    border: 1px #e8ebe4;
-    border-style: solid;
+    border: 1px #E8EBE4;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 
 .icons a{
-    color:#828485;
+    color:#BEC1BB;
+    margin-left: 10px;
 }
 
-.msj{
+.msj {
     display: flex;
-    flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
+    margin: 40px 10px 40px 10px;
+
 }
 
-.msj a{
+.msj a {
     background-color: #a491d2;
     color: #fff;
     text-decoration: none;
-    padding: 0.8rem 3rem;
-    border-radius: 0.3rem;
-    font-size: 1rem;
+    padding: 20px 50px;
+    font-size: 20px;
     font-weight: 400;
 }
 
-.text1{
-font-size: 1rem;
+.text1 {
+    font-size: 1rem;
 }
 
-.text2{
+.text2 {
     font-size: 0.8rem;
+    font-weight: 400;
 }
