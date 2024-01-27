@@ -10,33 +10,67 @@ body {
 
 .contenedor {
     display: flex;
-    flex:auto;
+
 }
 
 
+.user{
+    display: flex;
+    flex-direction: column;
 
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.contacto_user{
+    display: flex;
+    align-items: center;
+}
 
+.contacto_img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  
+}
 
+.contacto_nombre{
+margin-left: 1rem;
+}
 
+.chat_text{
+    margin-left: 1rem;
 
+}
 
+.nombre{
+font-size: 1rem;
+}
 
+.boton_activa{
+    font-size: 0.6rem;
+}
 
-
+.estado{
+    color: limegreen;
+}
 
 .hands {
     background-color: #e8ebe4;
     color: #1b1b1b;
     display: flex;
-    flex:auto;
+    flex-direction: column;
+    flex: 80%;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    width: 100%;
 }
 
 .hands img {
-    height: 300px;
+   height: 250px;
 }
 .hands h1{
     font-family: "Roboto", sans-serif;
@@ -55,6 +89,42 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    color: #828485;
+    margin-left: 10px;
+    border: 1px #e8ebe4;
+    border-style: solid;
+}
 
+.icons a{
+    color:#828485;
+}
 
+.msj{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.msj a{
+    background-color: #a491d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 3rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text1{
+font-size: 1rem;
+}
+
+.text2{
+    font-size: 0.8rem;
 }
